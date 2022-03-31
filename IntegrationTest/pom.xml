@@ -13,7 +13,7 @@
 
     <properties>
         <cucumber.version>1.2.5</cucumber.version>
-        <spring-boot.version>2.0.3.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
         <rest-assured.version>4.0.0</rest-assured.version>
     </properties>
 
