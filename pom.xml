@@ -11,19 +11,33 @@
 	</parent>
 
 	<groupId>nl.romkema.baseball</groupId>
-	<artifactId>nl.romkema.baseball.Statistics</artifactId>
+	<artifactId>statistics</artifactId>
+	<name>BBS Parent</name>
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>frontend</module>
+		<module>stand-alone-frontend</module>
 		<module>backend</module>
         <module>IntegrationTest</module>
-    </modules>
+		<module>deployment</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<java.version>1.8</java.version>
+		<spring-boot.version>2.0.3.RELEASE</spring-boot.version>
+		<junit.version>4.13.1</junit.version>
 	</properties>
 
+	<profiles>
+		<profile>
+			<id>desktop</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
 </project>

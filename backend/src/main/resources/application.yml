@@ -1,0 +1,44 @@
+server:
+  port: 8322
+    #  ssl:
+    #    keyStoreType: PKCS12
+    #    key-store: classpath:keystore/romkema.p12
+    #    key-store-password: kennissmaken
+
+#security:
+    # only allow HTTPS requests
+#  require-ssl: false
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:testdb
+    #url=jdbc:h2:file:/data/demo # file instead of in memory
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    #    properties:
+    #      javax:
+    #        persistence:
+    #          schema-generation:
+    #            scripts:
+    #              action: create
+    #              create-target: data.sql
+    #              create-source: metadata
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          issuer-uri: http://localhost:8083/auth/realms/baeldung
+#          jwk-set-uri: http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/certs
+
+javax:
+  persistence:
+    schema-generation:
+      scripts:
+        action: drop-and-create
