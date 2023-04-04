@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>nl.romkema.baseball</groupId>
-        <artifactId>nl.romkema.baseball.Statistics</artifactId>
+        <artifactId>statistics</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

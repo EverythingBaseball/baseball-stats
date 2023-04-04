@@ -1,7 +1,7 @@
 package nl.romkema.baseball.statistics.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import nl.romkema.baseball.statistics.domain.Statistics;
+import nl.romkema.baseball.statistics.repository.domain.Statistics;
 import nl.romkema.baseball.statistics.service.StatisticsService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -27,7 +27,7 @@ public class StatisticsController {
 
     @GetMapping("/statistics")
     public ResponseEntity<Statistics> getStatistics() {
-        return ResponseEntity.status(HttpStatus.OK)
-                .body(statisticsService.findStatistics("playerId", "gameId"));
+        return ResponseEntity.status(HttpStatus.OK).body(null);
+//                .body(statisticsService.findStatistics("playerId", "gameId"));
     }
 }

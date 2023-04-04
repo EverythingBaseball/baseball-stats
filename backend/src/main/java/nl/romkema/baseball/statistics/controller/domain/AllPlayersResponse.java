@@ -1,7 +1,7 @@
 package nl.romkema.baseball.statistics.controller.domain;
 
 import lombok.Data;
-import nl.romkema.baseball.statistics.domain.Player;
+import nl.romkema.baseball.statistics.repository.domain.Player;
 
 import java.util.List;
 

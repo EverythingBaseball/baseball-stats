@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "c435faba-4982-4ee4-940e-501bf375d469",
+		"name": "BBS first database entry",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "855218"
+	},
+	"item": [
+		{
+			"name": "Europe - Netherlands - Nieuwegein Diamonds - 2019",
+			"item": [
+				{
+					"name": "Game 1",
+					"item": [
+						{
+							"name": "Arvid Schlingmann",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Arvid Schlingmann\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 1,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 1,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 1,\n    \"flyOuts\": 1,\n    \"groundOuts\": 2,\n    \"strikeOuts\": 0,\n    \"runs\": 2,\n    \"runnersBattedIn\": 1,\n    \"stolenBases\": 1,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gabriel Goderski",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Gabriel Goderski\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 2,\n    \"doubles\": 0,\n    \"triples\": 1,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 2,\n    \"flyOuts\": 0,\n    \"groundOuts\": 1,\n    \"strikeOuts\": 0,\n    \"runs\": 3,\n    \"runnersBattedIn\": 1,\n    \"stolenBases\": 2,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gideon Goderski",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Gideon Goderski\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 2,\n    \"doubles\": 1,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 1,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 2,\n    \"flyOuts\": 0,\n    \"groundOuts\": 0,\n    \"strikeOuts\": 0,\n    \"runs\": 4,\n    \"runnersBattedIn\": 2,\n    \"stolenBases\": 1,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gilon Goderski",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Gilon Goderski\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 2,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 2,\n    \"flyOuts\": 0,\n    \"groundOuts\": 2,\n    \"strikeOuts\": 0,\n    \"runs\": 1,\n    \"runnersBattedIn\": 3,\n    \"stolenBases\": 0,\n    \"stolenBaseAttempts\": 1,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 2\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Vincent Kort",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Vincent Kort\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 1,\n    \"doubles\": 1,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 1,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 1,\n    \"flyOuts\": 2,\n    \"groundOuts\": 0,\n    \"strikeOuts\": 0,\n    \"runs\": 2,\n    \"runnersBattedIn\": 4,\n    \"stolenBases\": 2,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 2\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Wesley Meerten Jansen",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Wesley Meerten Jansen\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 1,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 3,\n    \"flyOuts\": 1,\n    \"groundOuts\": 0,\n    \"strikeOuts\": 1,\n    \"runs\": 3,\n    \"runnersBattedIn\": 2,\n    \"stolenBases\": 1,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Wessel Henkes",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Wessel Henkes\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 2,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 1,\n    \"flyOuts\": 2,\n    \"groundOuts\": 0,\n    \"strikeOuts\": 1,\n    \"runs\": 2,\n    \"runnersBattedIn\": 2,\n    \"stolenBases\": 0,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Patrick Nachtegaal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Patrick Nachtegaal\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": 6,\n    \"singles\": 3,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 1,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 0,\n    \"flyOuts\": 2,\n    \"groundOuts\": 0,\n    \"strikeOuts\": 0,\n    \"runs\": 2,\n    \"runnersBattedIn\": 2,\n    \"stolenBases\": 0,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Game 2",
+					"item": [
+						{
+							"name": "Arvid Schlingmann",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Arvid Schlingmann\",\n    \"game\": \"Diamonds- Arnhem Rhinos 2019-04-14\",\n    \"atBats\": 6,\n    \"singles\": 2,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 2,\n    \"flyOuts\": 1,\n    \"groundOuts\": 1,\n    \"strikeOuts\": 0,\n    \"runs\": 2,\n    \"runnersBattedIn\": 2,\n    \"stolenBases\": 1,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Chris Romkema",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Chris Romkema\",\n    \"game\": \"Diamonds- Arnhem Rhinos 2019-04-14\",\n    \"atBats\": 6,\n    \"singles\": 1,\n    \"doubles\": 0,\n    \"triples\": 0,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 1,\n    \"sacrificeFly\": 0,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 2,\n    \"flyOuts\": 0,\n    \"groundOuts\": 0,\n    \"strikeOuts\": 2,\n    \"runs\": 3,\n    \"runnersBattedIn\": 1,\n    \"stolenBases\": 2,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gabriel Goderski",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"Gabriel Goderski\",\n    \"game\": \"Diamonds- Arnhem Rhinos 2019-04-14\",\n    \"atBats\": 6,\n    \"singles\": 0,\n    \"doubles\": 0,\n    \"triples\": 1,\n    \"homeRuns\": 0,\n    \"reachedOnErrors\": 0,\n    \"reachedOnFieldersChoice\": 0,\n    \"hitByPitches\": 0,\n    \"sacrificeFly\": 1,\n    \"sacrificeBunt\": 0,\n    \"intentionalBaseOnBalls\": 0,\n    \"baseOnBalls\": 2,\n    \"flyOuts\": 1,\n    \"groundOuts\": 1,\n    \"strikeOuts\": 0,\n    \"runs\": 3,\n    \"runnersBattedIn\": 2,\n    \"stolenBases\": 1,\n    \"stolenBaseAttempts\": 0,\n    \"doublePlays\": 0,\n    \"leftOnBases\": 0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Arvid Schlingmann Copy 3",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"player\" : \"\",\n    \"game\": \"Diamonds- Arnhem Rhinos 2019-04-14\",\n    \"atBats\": ,\n    \"singles\": ,\n    \"doubles\": ,\n    \"triples\": ,\n    \"homeRuns\": ,\n    \"reachedOnErrors\": ,\n    \"reachedOnFieldersChoice\": ,\n    \"hitByPitches\": ,\n    \"sacrificeFly\": ,\n    \"sacrificeBunt\": ,\n    \"intentionalBaseOnBalls\": ,\n    \"baseOnBalls\": ,\n    \"flyOuts\": ,\n    \"groundOuts\": ,\n    \"strikeOuts\": ,\n    \"runs\": ,\n    \"runnersBattedIn\": ,\n    \"stolenBases\": ,\n    \"stolenBaseAttempts\": ,\n    \"doublePlays\": ,\n    \"leftOnBases\": \n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8322/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8322",
+									"path": [
+										"statistics"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Game 4",
+					"item": []
+				},
+				{
+					"name": "Game 5",
+					"item": []
+				},
+				{
+					"name": "Game 6",
+					"item": []
+				},
+				{
+					"name": "Game 7",
+					"item": []
+				},
+				{
+					"name": "Game 8",
+					"item": []
+				},
+				{
+					"name": "Game 9",
+					"item": []
+				},
+				{
+					"name": "Game 10",
+					"item": []
+				},
+				{
+					"name": "Game 11",
+					"item": []
+				},
+				{
+					"name": "Game 12",
+					"item": []
+				},
+				{
+					"name": "Game 13",
+					"item": []
+				},
+				{
+					"name": "Game 14",
+					"item": []
+				},
+				{
+					"name": "Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"player\" : \"\",\n    \"game\": \"bedrocks-diamonds 2019-04-07\",\n    \"atBats\": ,\n    \"singles\": ,\n    \"doubles\": ,\n    \"triples\": ,\n    \"homeRuns\": ,\n    \"reachedOnErrors\": ,\n    \"reachedOnFieldersChoice\": ,\n    \"hitByPitches\": ,\n    \"sacrificeFly\": ,\n    \"sacrificeBunt\": ,\n    \"intentionalBaseOnBalls\": ,\n    \"baseOnBalls\": ,\n    \"flyOuts\": ,\n    \"groundOuts\": ,\n    \"strikeOuts\": ,\n    \"runs\": ,\n    \"runnersBattedIn\": ,\n    \"stolenBases\": ,\n    \"stolenBaseAttempts\": ,\n    \"doublePlays\": ,\n    \"leftOnBases\": \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8322/statistics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8322",
+							"path": [
+								"statistics"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"player\" : \"\",\n    \"game\":\"\",\n    \"atBats\":\"\",\n    \"singles\":\"\",\n    \"doubles\":\"\",\n    \"triples\":\"\",\n    \"homeRuns\":\"\",\n    \"reachedOnErrors\":\"\",\n    \"reachedOnFieldersChoice\":\"\",\n    \"hitByPitches\":\"\",\n    \"sacrificeFly\":\"\",\n    \"sacrificeBunt\":\"\",\n    \"intentionalBaseOnBalls\":\"\",\n    \"baseOnBalls\":\"\",\n    \"flyOuts\":\"\",\n    \"groundOuts\":\"\",\n    \"strikeOuts\":\"\",\n    \"runs\":\"\",\n    \"runnersBattedIn\":\"\",\n    \"stolenBases\":\"\",\n    \"stolenBaseAttempts\":\"\",\n    \"doublePlays\":\"\",\n    \"leftOnBases\":\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8322/statistics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8322",
+					"path": [
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

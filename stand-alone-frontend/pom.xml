@@ -13,7 +13,6 @@
     <artifactId>stand-alone-frontend</artifactId>
     <name>BBS stand alone front-end</name>
     <packaging>jar</packaging>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>

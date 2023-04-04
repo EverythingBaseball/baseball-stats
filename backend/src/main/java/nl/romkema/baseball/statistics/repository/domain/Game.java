@@ -1,4 +1,4 @@
-package nl.romkema.baseball.statistics.domain;
+package nl.romkema.baseball.statistics.repository.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;

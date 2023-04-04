@@ -1,7 +1,7 @@
 package nl.romkema.baseball.statistics.controller;
 
 import nl.romkema.baseball.statistics.controller.domain.AllPlayersResponse;
-import nl.romkema.baseball.statistics.domain.Player;
+import nl.romkema.baseball.statistics.repository.domain.Player;
 import nl.romkema.baseball.statistics.exception.PlayerNotFoundException;
 import nl.romkema.baseball.statistics.service.PlayerService;
 import nl.romkema.baseball.statistics.service.TeamService;
@@ -41,15 +41,15 @@ public class PlayerController {
 //        return ResponseEntity.status(HttpStatus.OK).header("charset", "utf-8").body(foundPlayer);
 //    }
 
-    @RequestMapping(path = "player/{playerNumber:.+}", method = RequestMethod.GET)
-    public ResponseEntity<Player> findPlayer(@PathVariable String playerNumber) {
-        try {
-            Player foundPlayer = playerService.find(playerNumber);
-            return ResponseEntity.status(HttpStatus.OK).header("charset", "utf-8").body(foundPlayer);
-        } catch (PlayerNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
-        }
-    }
+//    @RequestMapping(path = "player/{playerNumber:.+}", method = RequestMethod.GET)
+//    public ResponseEntity<Player> findPlayer(@PathVariable String playerNumber) {
+//        try {
+//            Player foundPlayer = playerService.find(playerNumber);
+//            return ResponseEntity.status(HttpStatus.OK).header("charset", "utf-8").body(foundPlayer);
+//        } catch (PlayerNotFoundException e) {
+//            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+//        }
+//    }
 
     @RequestMapping(path = "players", method = RequestMethod.GET)
     public ResponseEntity<AllPlayersResponse> getAllPlayers() {

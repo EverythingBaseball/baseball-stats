@@ -1,16 +1,16 @@
-package nl.romkema.baseball.statistics.domain;
+package nl.romkema.baseball.statistics.repository.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
-//@Entity
-//@Table(name = "Statistics")
+@Entity
+@Table(name = "STATISTICS")
 public class Statistics {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "ID")
     private Long id;
 
 //    @OneToOne(mappedBy = "related_player", fetch = FetchType.EAGER)
@@ -20,7 +20,6 @@ public class Statistics {
 
     private String player;
     private String game;
-
     // batting stats
     private int atBats;
     private int singles;

@@ -1,7 +1,7 @@
 package nl.romkema.baseball.statistics.service;
 
 import lombok.extern.slf4j.Slf4j;
-import nl.romkema.baseball.statistics.domain.Player;
+import nl.romkema.baseball.statistics.repository.domain.Player;
 import nl.romkema.baseball.statistics.exception.PlayerNotFoundException;
 import nl.romkema.baseball.statistics.repository.PlayerRepository;
 import org.springframework.stereotype.Service;
@@ -11,12 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Service
 public class PlayerService {
 
-    private final PlayerRepository playerRepository;
+//    private final PlayerRepository playerRepository;
 
-    @Autowired
-    public PlayerService(PlayerRepository playerRepository) {
-        this.playerRepository = playerRepository;
-    }
+//    @Autowired
+//    public PlayerService(PlayerRepository playerRepository) {
+//        this.playerRepository = playerRepository;
+//    }
 
 //    public Player createNewPlayer(Player player) {
 //        playerRepository.save(player);
@@ -53,14 +53,14 @@ public class PlayerService {
 //        }
 //    }
 
-    public Player find(String playerNumber) {
-        Player foundPlayer = playerRepository.findByPlayerNumber(playerNumber);
-        if(foundPlayer != null) {
-            return foundPlayer;
-        } else {
-            throw new PlayerNotFoundException("No player found with Player-Number");
-        }
-    }
+//    public Player find(String playerNumber) {
+//        Player foundPlayer = playerRepository.findByPlayerNumber(playerNumber);
+//        if(foundPlayer != null) {
+//            return foundPlayer;
+//        } else {
+//            throw new PlayerNotFoundException("No player found with Player-Number");
+//        }
+//    }
 
 //    public Player findByAny(Player player) {
 //        if(StringUtils.isNotEmpty(player.getPlayerNumber())) {

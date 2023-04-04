@@ -1,0 +1,16 @@
+module bbs.backend {
+    requires spring.beans;
+    requires spring.context;
+    requires spring.jdbc;
+    requires lombok;
+    requires jakarta.persistence;
+    requires spring.web;
+    requires spring.boot;
+    requires spring.boot.autoconfigure;
+    requires spring.data.jpa;
+    requires org.slf4j;
+
+    exports nl.romkema.baseball.statistics.repository.domain;
+    exports nl.romkema.baseball.statistics.service;
+    exports nl.romkema.baseball.statistics.exception;
+}

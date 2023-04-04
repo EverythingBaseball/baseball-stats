@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>nl.romkema.baseball.Statistics</artifactId>
+        <artifactId>statistics</artifactId>
         <groupId>nl.romkema.baseball</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -13,9 +13,9 @@
     <name>BBS Integration Tests</name>
 
     <properties>
-<!--        <cucumber.version>1.2.5</cucumber.version>-->
         <cucumber.version>6.8.0</cucumber.version>
-        <rest-assured.version>4.2.0</rest-assured.version>
+<!--        <rest-assured.version>4.2.0</rest-assured.version>-->
+        <rest-assured.version>4.5.1</rest-assured.version>
     </properties>
 
     <dependencyManagement>
@@ -51,27 +51,18 @@
             <artifactId>spring-test</artifactId>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-<!--            <groupId>info.cukes</groupId>-->
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-<!--            <groupId>info.cukes</groupId>-->
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-<!--            <groupId>info.cukes</groupId>-->
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-spring</artifactId>
             <version>${cucumber.version}</version>

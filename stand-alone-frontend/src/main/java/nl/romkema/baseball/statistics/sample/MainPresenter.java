@@ -22,8 +22,6 @@ import javafx.scene.paint.Color;
 public class MainPresenter {
 
     private final String javafxVersion = System.getProperty("javafx.version");
-Bundle contain not files, but deltas, you need the base in order to recreate the file content. You have to clone first, unbundle later. Init instead of clone allowed only in case, where bundle requires 0 refs
-
 
     private CloudLinkService cloudLinkService;
 
