@@ -13,7 +13,7 @@
     <name>BBS Integration Tests</name>
 
     <properties>
-        <cucumber.version>6.8.0</cucumber.version>
+        <cucumber.version>6.11.0</cucumber.version>
 <!--        <rest-assured.version>4.2.0</rest-assured.version>-->
         <rest-assured.version>4.5.1</rest-assured.version>
     </properties>
